@@ -1,0 +1,31 @@
+Project : Enterprice Sales Analytics
+
+Step 1: Create Database
+Create a new database named SalesDB (or any name you prefer).
+This database will contain all project tables, triggers, and queries.
+
+Step 2: Create Tables
+Create core tables:
+Products → holds product details (price, stock, category)
+Customers → holds customer & region reference
+Regions → holds region master
+Sales → stores each sale record
+Sales_Audit → tracks sale modifications
+
+Step 3: Insert Sample Data
+Insert a few sample records in all tables:
+5–6 products (Electronics, Furniture, etc.)
+5 customers (each linked to a region)
+4–6 regions
+10+ sales transactions
+
+Step 4 : Create Triggers
+Create a trigger to update stock automatically when a sale is made.
+Create another trigger to audit changes in sales (insert/update/delete).
+
+Step 5: Write Analytical Queries
+Query 1: Total Sales & Profit per Region
+Query 2: Top Products by Profit
+Query 3: Year-over-Year Growth
+Query 4: Customer Lifetime Value
+Query 5: Dynamic Pivot Report by Region & Category
