@@ -1,7 +1,7 @@
 ## Project : Enterprice Sales Analytics
 
 **Step 1: Create Database**
-Create a new database named SalesDB (or any name you prefer).
+Create a new database named EnterpriseSalesDB.
 This database will contain all project tables, triggers, and queries.
 
 **Step 2: Create Tables**
